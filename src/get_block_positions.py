@@ -113,11 +113,10 @@ def get_eth_tricrypto_positions(
         current_block = int(get_block_info()["height"])
         logging.info(f"Current block: {current_block}")
 
-        # set longer sleep time if reached current block
+        # stop if reached current block
         if to_block > current_block:
             logging.info(f"Reached max block height {current_block}")
-            to_block = current_block
-            sleep_time = SLEEP_TIME  # longer sleep time.
+            return
 
         # get addresses of active participants
         logging.info(f"Fetching Txes between {from_block} : {current_block}")

@@ -53,7 +53,7 @@ def get_historical_price_coingecko(
             break
         print("Warning: Coingecko Rate Limit might get breached.")
         add_minutes += 1
-        sleep(0.5)  # can't make too many calls to CoinGecko ...
+        sleep(1)  # can't make too many calls to CoinGecko ...
 
     response_price = response["prices"][0][1]
     response_date = pytz.utc.localize(datetime.utcfromtimestamp(to_timestamp))
