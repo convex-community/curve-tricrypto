@@ -1,0 +1,158 @@
+{
+  "historical_position": {
+    "claimed_rewards": [
+      {
+        "rewards": [
+          {
+            "token": "CVX",
+            "num_tokens": 1.5,
+            "value_tokens_usd": 3.9,
+            "coingecko_price_usd": 2.6
+          },
+          {
+            "token": "CRV",
+            "num_tokens": 10.2,
+            "value_tokens_usd": 16.422,
+            "coingecko_price_usd": 1.61
+          }
+        ]
+      }
+    ],
+    "operations": [
+      {
+        "date": "06 July, 2021 19:23:57 UTC",
+        "type": "add_liq",
+        "hash": "0x22787141b6488b49c42bde861adf7d82de8b6d8a5a478e6f8213127f15f95186",
+        "lp_tokens": 362.37596400743655,
+        "block_number": "12775750",
+        "transaction_fees_eth": 0.01229367,
+        "tokens": [
+          {
+            "token": "USDT",
+            "amount": 0.0,
+            "coingecko_price": 1.003829993413279,
+            "value": 0.0
+          },
+          {
+            "token": "WBTC",
+            "amount": 8.13786476,
+            "coingecko_price": 33952.28107081836,
+            "value": 276299.0716478278
+          },
+          {
+            "token": "ETH",
+            "amount": 83.17869696000001,
+            "coingecko_price": 2217.3018530598792,
+            "value": 184432.27890451415
+          }
+        ]
+      },
+      {
+        "date": "06 July, 2021 19:23:59 UTC",
+        "type": "add_liq",
+        "hash": "0x22787141b6488b49c42bde861adf7d82de8b6d8a5a478e6f8213127f15f95186",
+        "lp_tokens": 362.37596400743655,
+        "block_number": "12775750",
+        "transaction_fees_eth": 0.01229367,
+        "tokens": [
+          {
+            "token": "USDT",
+            "amount": 0.0,
+            "coingecko_price": 1.003829993413279,
+            "value": 0.0
+          },
+          {
+            "token": "WBTC",
+            "amount": 8.13786476,
+            "coingecko_price": 33952.28107081836,
+            "value": 276299.0716478278
+          },
+          {
+            "token": "ETH",
+            "amount": 83.17869696000001,
+            "coingecko_price": 2217.3018530598792,
+            "value": 184432.27890451415
+          }
+        ]
+      },
+      {
+        "date": "07 July, 2021 22:09:14 UTC",
+        "type": "remove_liq",
+        "hash": "0xcba9ade7197c221a6de26e6d46141906d04c7856e916b7ec510a3f375781f509",
+        "lp_tokens": 181.185,
+        "block_number": "12782908",
+        "transaction_fees_eth": 0.006616036,
+        "tokens": [
+          {
+            "token": "USDT",
+            "amount": 235549.564358,
+            "coingecko_price": 1.0025265590774224,
+            "value": 236144.6942480116
+          },
+          {
+            "token": "WBTC",
+            "amount": 0.0,
+            "coingecko_price": 34167.305179719544,
+            "value": 0.0
+          },
+          {
+            "token": "ETH",
+            "amount": 0.0,
+            "coingecko_price": 2320.6549288317,
+            "value": 0.0
+          }
+        ]
+      },
+      {
+        "date": "07 July, 2021 22:30:14 UTC",
+        "type": "claim_pool_rewards",
+        "hash": "0xcba9ade7197c221a6de26e6d46141906d04c7856e916b7ec510a3f375781f509",
+        "lp_tokens": 181.185,
+        "block_number": "12782908",
+        "transaction_fees_eth": 0.006616036,
+        "tokens": [
+          {
+            "token": "CVX",
+            "amount": 1.5,
+            "value_tokens_usd": 3.9,
+            "coingecko_price_usd": 2.6
+          },
+          {
+            "token": "CRV",
+            "amount": 10.2,
+            "coingecko_price": 16.422,
+            "value": 1.61
+          }
+        ]
+      },
+      {
+        "date": "07 July, 2021 23:09:14 UTC",
+        "type": "remove_liq",
+        "hash": "0xcba9ade7197c221a6de26e6d46141906d04c7856e916b7ec510a3f375781f509",
+        "lp_tokens": 181.185,
+        "block_number": "12782908",
+        "transaction_fees_eth": 0.006616036,
+        "tokens": [
+          {
+            "token": "USDT",
+            "amount": 235549.564358,
+            "coingecko_price": 1.0025265590774224,
+            "value": 236144.6942480116
+          },
+          {
+            "token": "WBTC",
+            "amount": 0.0,
+            "coingecko_price": 34167.305179719544,
+            "value": 0.0
+          },
+          {
+            "token": "ETH",
+            "amount": 0.0,
+            "coingecko_price": 2320.6549288317,
+            "value": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

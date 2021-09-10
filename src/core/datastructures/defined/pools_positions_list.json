@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "name": "tricrypto",
+      "contractAddress": "0x0000000000000000",
+      "current_position": {
+        "lp_tokens": 12.345,
+        "accrued_fees": 1.15,
+        "tokens": [
+          {
+            "token": "USDT",
+            "num_tokens": 228304.64416,
+            "value_tokens_usd": 228304.64416,
+            "coingecko_price_usd": 1.0
+          },
+          {
+            "token": "WBTC",
+            "num_tokens": 6.80257501,
+            "value_tokens_usd": 228422.99413448936,
+            "coingecko_price_usd": 33644
+          },
+          {
+            "token": "ETH",
+            "num_tokens": 104.99417704246804,
+            "value_tokens_usd": 228412.35327518414,
+            "coingecko_price_usd": 2179.24
+          }
+        ],
+        "outstanding_rewards": [
+          {
+            "token": "CVX",
+            "num_tokens": 10.5,
+            "value_tokens_usd": 27.3,
+            "coingecko_price_usd": 2.6
+          },
+          {
+            "token": "CRV",
+            "num_tokens": 150.2,
+            "value_tokens_usd": 241.822,
+            "coingecko_price_usd": 1.61
+          }
+        ]
+      }
+    },
+    {
+      "name": "seth",
+      "contractAddress": "0x00000000111111111",
+      "current_position": {
+        "lp_tokens": 8.345,
+        "accrued_fees": 3.25,
+        "tokens": [
+          {
+            "token": "ETH",
+            "num_tokens": 10,
+            "value_tokens_usd": 21790.24,
+            "coingecko_price_usd": 2179.24
+          },
+          {
+            "token": "sETH",
+            "num_tokens": 9.99,
+            "value_tokens_usd": 21790.24,
+            "coingecko_price_usd": 2181.2
+          }
+        ],
+        "outstanding_rewards": [
+          {
+            "token": "CVX",
+            "num_tokens": 10.5,
+            "value_tokens_usd": 27.3,
+            "coingecko_price_usd": 2.6
+          },
+          {
+            "token": "CRV",
+            "num_tokens": 150.2,
+            "value_tokens_usd": 241.822,
+            "coingecko_price_usd": 1.61
+          }
+        ]
+      }
+    },
+    {
+      "name": "frax",
+      "contractAddress": "0x0000000022222222222",
+      "current_position": null
+    }
+  ]
+}
